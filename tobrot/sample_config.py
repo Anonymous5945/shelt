@@ -83,7 +83,7 @@ class Config:
     #
     DIS_ABLE_ST_GFC_COMMAND_I = get_config(
         "DIS_ABLE_ST_GFC_COMMAND_I",
-        False
+        True
     )
     # array to store the users who will have control (permissions)
     # in the bot
