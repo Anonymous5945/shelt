@@ -72,7 +72,7 @@ class Config:
     # Destination folder for the rclone
     R_CLONE_DEST = get_config("R_CLONE_DEST", "/PublicLeech")
     # because, https://t.me/c/1494623325/5603
-    SHOULD_USE_BUTTONS = get_config("SHOULD_USE_BUTTONS", False)
+    SHOULD_USE_BUTTONS = get_config("SHOULD_USE_BUTTONS", True)
     #
     LOG_FILE_ZZGEVC = get_config("LOG_FILE_ZZGEVC", "PublicLeech.log")
     #
